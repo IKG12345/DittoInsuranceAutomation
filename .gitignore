@@ -6,3 +6,4 @@ bin/
 test-output/
 logs/
 .DS_Store
+test-output-thread/
