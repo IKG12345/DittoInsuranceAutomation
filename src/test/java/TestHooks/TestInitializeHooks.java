@@ -84,7 +84,7 @@ public class TestInitializeHooks
 			log.info("Scenario failed: " + scenario.getName());
 			String screenshotName = scenario.getName().replaceAll(" ", "_");
 			byte sourcePath[] = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
-			scenario.attach(sourcePath, "image.png", screenshotName);
+			scenario.attach(sourcePath, "image/png", screenshotName);
 		}
 		else
 		{
